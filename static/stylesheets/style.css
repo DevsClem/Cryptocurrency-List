@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    /* outline: 1px dotted red; */
+}
+div.container{
+    margin:0px auto;
+    width: 700px;
+}
+    div.container header{
+        margin: 50px 0px;
+    }
+        header h1{
+            display: inline-block;
+            margin-right: 20%;
+        }
+        header a{
+            font-size: 14pt;
+            margin: 0px 5px;
+            color: blue
+        }
+    div.container ul{
+        margin: 0px auto;
+        padding: 5px 0px;
+        border: 1px solid black;
+        list-style-type: none;
+        width: 60%;
+        text-align: center;
+        height: 250px;
+        overflow: auto;
+    }
+        ul li{
+            margin: 5px 0px;
+            font-size: 14pt;
+        }
+    div.container div.buttons{
+        margin: 0px auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 60%;
+        text-align: center;
+    }
+    div.buttons button{
+        padding: 5px 13px;
+        border:  1px solid black;
+        box-shadow: 2px 2px black;
+        background-color: #367fe5;
+        color: white;
+        font-size: 14pt;
+        margin: 0px 10px;
+    }
+    div.buttons button.all{
+        background-color: #009e0f;
+    }
