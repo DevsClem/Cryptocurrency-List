@@ -4,22 +4,36 @@
     font-family: sans-serif;
     /* outline: 1px dotted red; */
 }
+
+body {
+    background-color: #367fe5;
+}
+
 div.container{
-    margin:0px auto;
+    margin: 0px auto;
+    margin-top: 30px;
     width: 700px;
+    outline: 1px dotted red;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
 }
     div.container header{
-        margin: 50px 0px;
+        margin: 10px 0px;
     }
         header h1{
             display: inline-block;
-            margin-right: 20%;
+            margin-left: 15%;
         }
-        header a{
-            font-size: 14pt;
-            margin: 0px 5px;
-            color: blue
+        header div.urls{
+            display: inline-block;
+            margin-left: 5%;
         }
+            div.urls a{
+                font-size: 14pt;
+                margin: 0px 5px;
+                color: blue
+            }
     div.container ul{
         margin: 0px auto;
         padding: 5px 0px;
